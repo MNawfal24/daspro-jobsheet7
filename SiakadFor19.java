@@ -2,9 +2,9 @@ import java.util.Scanner;
 public class SiakadFor19{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double nilai, terendah = 0, tertinggi = 100;
+        double nilai, terendah = 100, tertinggi = 0;
         
-        for (int i = 1; i<=10; i++) {
+        for (int i = 1; i <=10; i++) {
             System.out.print("Masukkan nilai mahasiswa ke-" + i + ": ");
             nilai = sc.nextDouble();
             if (nilai > tertinggi) {
