@@ -14,9 +14,9 @@ public class Tugas2Jobsheet {
                     if (lamaparkir >5){
                         totalBayar += 12500;
                     } else if (jnsKendaraan == 1) {
-                        totalBayar += 3000;
+                        totalBayar += lamaparkir * 3000;
                     } else if (jnsKendaraan == 2) {
-                        totalBayar += 2000;
+                        totalBayar += lamaparkir * 2000;
                     }
                 }     
         }while (jnsKendaraan != 3);
